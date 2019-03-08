@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Streuobstpfad</string>
+    <string name="TextView">123456678!</string>
+    <string name="textview2">Hallo Welt</string>
+    <string name="btn_1">Start</string>
+    <string name="btn_2">ABC</string>
+    <string name="btn_3">123</string>
+    <string name="btn_4">A1B2C3</string>
+    <string name="textview1r">Dies Test</string>
 </resources>
