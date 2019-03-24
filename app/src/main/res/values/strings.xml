@@ -13,4 +13,5 @@
     <string name="btn_4">A1B2C3</string>
     <string name="textview1r">Dies Test</string>
     <string name="search">Suche</string>
+    <string name="main">Hauptmenu</string>
 </resources>

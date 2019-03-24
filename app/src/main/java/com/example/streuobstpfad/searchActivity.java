@@ -7,12 +7,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class settingActivity extends AppCompatActivity {
+public class searchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
+        setContentView(R.layout.activity_scarch);
     }
 
     @Override
@@ -33,6 +33,7 @@ public class settingActivity extends AppCompatActivity {
             this.startActivity(intent);
             return true;
         }
+
         if(id== R.id.settings){
             Intent intent=new Intent( this,settingActivity.class);
             Toast.makeText(this, "click on setting Activity", Toast.LENGTH_LONG).show();

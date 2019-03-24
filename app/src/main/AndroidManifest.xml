@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".settingActivity"></activity>
-        <activity android:name=".scarchActivity" />
+        <activity android:name=".searchActivity" />
         <activity android:name=".felsbergActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

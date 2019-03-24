@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,6 +33,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public boolean onOptionsItemSelected(MenuItem item) {
 
         int id = item.getItemId();
+        if(id== R.id.Main){
+            Intent intent=new Intent( this,MainActivity.class);
+            Toast.makeText(this, "click on Main Activity", Toast.LENGTH_LONG).show();
+            this.startActivity(intent);
+            return true;
+        }
+
         if(id== R.id.settings){
             Intent intent=new Intent( this,settingActivity.class);
             Toast.makeText(this, "click on setting Activity", Toast.LENGTH_LONG).show();
@@ -42,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if(id== R.id.search){
-            Intent intent=new Intent( this,scarchActivity.class);
+            Intent intent=new Intent( this, searchActivity.class);
             this.startActivity(intent);
             Toast.makeText(this, "click on Search Activity", Toast.LENGTH_LONG).show();
             return true;
