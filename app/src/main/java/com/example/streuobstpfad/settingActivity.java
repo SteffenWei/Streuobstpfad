@@ -33,6 +33,7 @@ public class settingActivity extends AppCompatActivity {
             this.startActivity(intent);
             return true;
         }
+
         if(id== R.id.settings){
             Intent intent=new Intent( this,settingActivity.class);
             Toast.makeText(this, "click on setting Activity", Toast.LENGTH_LONG).show();
@@ -47,10 +48,31 @@ public class settingActivity extends AppCompatActivity {
             return true;
         }
 
-        if(id== R.id.Thema1){
-            Intent intent=new Intent(this,felsbergActivity.class);
+        if(id== R.id.felsberg){
+            Intent intent=new Intent(this, steinhaufenActivity.class);
             this.startActivity(intent);
             Toast.makeText(this, "click on FelsBerg Activity", Toast.LENGTH_LONG).show();
+            return true;
+        }
+
+        if(id== R.id.hoch_stamm){
+            Intent intent=new Intent(this, hochStammActivity.class);
+            this.startActivity(intent);
+            Toast.makeText(this, "click on Der Hochstamm Activity", Toast.LENGTH_LONG).show();
+            return true;
+        }
+
+        if(id== R.id.fr_brummer){
+            Intent intent=new Intent(this, frBrummerActivity.class);
+            this.startActivity(intent);
+            Toast.makeText(this, "click on Friedliche Brummer Activity", Toast.LENGTH_LONG).show();
+            return true;
+        }
+
+        if(id== R.id.schleiereule){
+            Intent intent=new Intent(this, schleiereuleActivity.class);
+            this.startActivity(intent);
+            Toast.makeText(this, "click on Die Schleiereule Activity", Toast.LENGTH_LONG).show();
             return true;
         }
 

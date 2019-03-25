@@ -6,8 +6,20 @@
         android:title="@string/main"
         app:showAsAction="never" />
 
-    <item android:id="@+id/Thema1"
-        android:title="@string/thema1"
+    <item android:id="@+id/felsberg"
+        android:title="@string/felsberg"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/fr_brummer"
+        android:title="@string/fr_brummer"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/hoch_stamm"
+        android:title="@string/hoch_stamm"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/schleiereule"
+        android:title="@string/schleiereule"
         app:showAsAction="never" />
 
     <item android:id="@+id/settings"

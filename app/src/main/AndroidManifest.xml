@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".settingActivity"></activity>
+        <activity android:name=".hochStammActivity"></activity>
+        <activity android:name=".schleiereuleActivity" />
+        <activity android:name=".frBrummerActivity" />
+        <activity android:name=".settingActivity" />
         <activity android:name=".searchActivity" />
-        <activity android:name=".felsbergActivity" />
+        <activity android:name=".steinhaufenActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
