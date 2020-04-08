@@ -91,6 +91,24 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "click on Die Schleiereule Activity", Toast.LENGTH_LONG).show();
             return true;
         }
+        if(id== R.id.quiz){
+            Intent intent=new Intent( this,QuizActivity.class);
+            Toast.makeText(this, "click on Das Quiz Activity", Toast.LENGTH_LONG).show();
+            this.startActivity(intent);
+            return true;
+        }
+        if(id== R.id.puzzle){
+            Intent intent=new Intent( this,PuzzleActivity.class);
+            Toast.makeText(this, "click on Das Puzzle Activity", Toast.LENGTH_LONG).show();
+            this.startActivity(intent);
+            return true;
+        }
+        if(id== R.id.memory){
+            Intent intent=new Intent( this,MemoryActivity.class);
+            Toast.makeText(this, "click on Das Memory Activity", Toast.LENGTH_LONG).show();
+            this.startActivity(intent);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }

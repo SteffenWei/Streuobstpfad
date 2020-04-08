@@ -22,6 +22,18 @@
         android:title="@string/schleiereule"
         app:showAsAction="never" />
 
+    <item android:id="@+id/memory"
+        android:title="@string/memory"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/quiz"
+        android:title="@string/quiz"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/puzzle"
+        android:title="@string/puzzle"
+        app:showAsAction="never" />
+
     <item android:id="@+id/settings"
         android:title="@string/settings"
         app:showAsAction="never" />

@@ -6,6 +6,9 @@
     <string name="fr_brummer">Friedliche Brummer</string>
     <string name="hoch_stamm">Der HochStamm</string>
     <string name="schleiereule">Die Schleiereule</string>
+    <string name="puzzle">Das Puzzle</string>
+    <string name="quiz">Das Quiz</string>
+    <string name="memory">Das Memory</string>
     <string name="ueberschrift" id="ueberschrift">Der Streuobstpfad</string>
 
     <string name="app_name">Streuobstpfad</string>
