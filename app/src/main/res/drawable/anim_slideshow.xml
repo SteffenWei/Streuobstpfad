@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:duration="4000"
@@ -17,4 +17,4 @@
         android:duration="4000"
         android:drawable="@drawable/ic_104"/>
 
-</selector>
+</animation-list>
