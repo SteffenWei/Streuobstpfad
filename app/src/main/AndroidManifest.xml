@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BilderPuzzleActivity"></activity>
+        <activity android:name=".FlussActivity"></activity>
+        <activity android:name=".BilderPuzzleActivity" />
         <activity android:name=".QuizActivity" />
         <activity android:name=".PuzzleActivity" />
         <activity android:name=".MemoryActivity" />
         <activity android:name=".BilderActivity" />
-        <activity android:name=".hochStammActivity" />
-        <activity android:name=".schleiereuleActivity" />
-        <activity android:name=".frBrummerActivity" />
+        <activity android:name=".HochStammActivity" />
+        <activity android:name=".SchleiereuleActivity" />
+        <activity android:name=".FrBrummerActivity" />
         <activity android:name=".settingActivity" />
         <activity android:name=".searchActivity" />
-        <activity android:name=".steinhaufenActivity" />
+        <activity android:name=".SteinhaufenActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
