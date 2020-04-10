@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class SchleiereuleActivity extends AppCompatActivity {
@@ -13,6 +16,20 @@ public class SchleiereuleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schleiereule);
+        TextView SeTV1 = findViewById(R.id.SeTV1);
+        TextView SeTV2 = findViewById(R.id.SeTV2);
+        TextView SeTV3 = findViewById(R.id.SeTV3);
+        TextView SeTV4 = findViewById(R.id.SeTV4);
+
+        ImageView seIv1 = findViewById(R.id.seIv_1);
+        ImageView seIv2 = findViewById(R.id.seIv_2);
+        ImageView seIv3 = findViewById(R.id.seIv_3);
+        ImageView seIv4 = findViewById(R.id.seIv_4);
+
+        Button seBtn1 = findViewById(R.id.seBtn1);
+        Button seBtn2 = findViewById(R.id.seBtn2);
+
+
     }
 
     @Override
