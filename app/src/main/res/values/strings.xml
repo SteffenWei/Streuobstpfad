@@ -15,16 +15,16 @@
     <string name="search">Suche</string>
     <string name="main">Hauptmenu</string>
 
-    <string name="SeTV2_de"><b>Verbreitung und Lebensraum</b> <br> Sie Schleiereule (Tyto alba) zählt zu den am weitest verbreiteten Eulenarten. Man
-    kann die bis auf wenige Gebiete auf allen Kontinenten antreffen. Al Kulturfolger besiedelt sie vor allem offene Landschaften mit
-        dörflichern Siedlungen. Sie lebt gern in menschlicher Umgebung. </br>
+    <string name="SeTV2_de"><b>Verbreitung und Lebensraum</b> \nDie Schleiereule (Tyto alba) zählt zu den am weitest verbreiteten Eulenarten. Man
+    kann die bis auf wenige Gebiete auf allen Kontinenten antreffen. Als Kulturfolger besiedelt sie vor allem offene Landschaften mit
+        dörflichern Siedlungen. Sie lebt gern in menschlicher Umgebung. \n
 
-    <b>Aussehen:</b> Sie kann eine Körperlänge von 35cm und eine Flügelspannweite von 85cm erreichen.Ihre Unterseite ist meist grau bis weiß
+    <b>Aussehen:</b>  \nSie kann eine Körperlänge von 35cm und eine Flügelspannweite von 85cm erreichen.Ihre Unterseite ist meist grau bis weiß
     un ihre Oberseite rostrot. Typisches Erkennungsmerkmal ist ihr herzförmiger Gesichtsschleier, daher auch der Name.
 
-    <b>Fortpflanzung:</b> Der Beginn der Balz und der Brut ist vom Nahrungsangebot abhängig. Als Brutplatz dienen am häufigsten Kirchtürme und Scheunen,
+    \n<b>Fortpflanzung:</b> \nDer Beginn der Balz und der Brut ist vom Nahrungsangebot abhängig. Als Brutplatz dienen am häufigsten Kirchtürme und Scheunen,
         nach ca. 30 Tagen schlüpfen die 3-12 Jungen.</string>
-    <string name="SeTV3_de"><b>Lebensweise:</b> Außerhalb der Paarungszeit ist sie ein Einzelgänger, der den Tag aufrecht dösend auf hohen Ästen,
+    <string name="SeTV3_de"><b>Lebensweise:</b> \nAußerhalb der Paarungszeit ist sie ein Einzelgänger, der den Tag aufrecht dösend auf hohen Ästen,
         in geschützten Nischen, Scheunen und Felsspalten mit einem Platz zum Anlehnen verbringt.</string>
-    <string name="SeTV4_de"><b>Nahrung und Jagd:</b> In der Dämmerung und nachts begibt sie sich auf die geräuschlose Jagd nach kleinen Säugetieren, wie z.B. Mäusen.</string>
+    <string name="SeTV4_de"><b>Nahrung und Jagd:</b> \nIn der Dämmerung und nachts begibt sie sich auf die geräuschlose Jagd nach kleinen Säugetieren, wie z.B. Mäusen.</string>
 </resources>
