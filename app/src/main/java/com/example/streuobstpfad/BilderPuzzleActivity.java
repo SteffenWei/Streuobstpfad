@@ -12,10 +12,15 @@ public class BilderPuzzleActivity extends AppCompatActivity {
     private ImageView ivbp1,ivbp2,ivbp3,ivbp4,ivbp5,ivbp6;
     private int mArr[] = {0,0,0,0,0,0,0};
 
+    int punkteSpieler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bilder_puzzle);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
 
         ivbp1 = findViewById(R.id.ivpb1);
         ivbp2 = findViewById(R.id.ivpb2);

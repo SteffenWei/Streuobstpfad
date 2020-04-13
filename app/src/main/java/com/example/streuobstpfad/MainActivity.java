@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    public int punkteSpieler = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, BilderActivity.class);
+                i.putExtra("punkte",punkteSpieler);
                 startActivity(i);
 
             }
@@ -45,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         if(id== R.id.Main){
             Intent intent=new Intent( this,MainActivity.class);
             Toast.makeText(this, "click on Main Activity", Toast.LENGTH_LONG).show();
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             return true;
         }
@@ -52,12 +56,14 @@ public class MainActivity extends AppCompatActivity {
         if(id== R.id.settings){
             Intent intent=new Intent( this,settingActivity.class);
             Toast.makeText(this, "click on setting Activity", Toast.LENGTH_LONG).show();
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             return true;
         }
 
         if(id== R.id.search){
             Intent intent=new Intent( this, searchActivity.class);
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             Toast.makeText(this, "click on Search Activity", Toast.LENGTH_LONG).show();
             return true;
@@ -65,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(id== R.id.felsberg){
             Intent intent=new Intent(this, SteinhaufenActivity.class);
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             Toast.makeText(this, "click on FelsBerg Activity", Toast.LENGTH_LONG).show();
             return true;
@@ -72,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(id== R.id.hoch_stamm){
             Intent intent=new Intent(this, HochStammActivity.class);
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             Toast.makeText(this, "click on Der Hochstamm Activity", Toast.LENGTH_LONG).show();
             return true;
@@ -79,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(id== R.id.fr_brummer){
             Intent intent=new Intent(this, FrBrummerActivity.class);
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             Toast.makeText(this, "click on Friedliche Brummer Activity", Toast.LENGTH_LONG).show();
             return true;
@@ -86,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(id== R.id.schleiereule){
             Intent intent=new Intent(this, SchleiereuleActivity.class);
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             Toast.makeText(this, "click on Die Schleiereule Activity", Toast.LENGTH_LONG).show();
             return true;
@@ -93,18 +103,21 @@ public class MainActivity extends AppCompatActivity {
         if(id== R.id.quiz){
             Intent intent=new Intent( this,QuizActivity.class);
             Toast.makeText(this, "click on Das Quiz Activity", Toast.LENGTH_LONG).show();
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             return true;
         }
         if(id== R.id.puzzle){
             Intent intent=new Intent( this,PuzzleActivity.class);
             Toast.makeText(this, "click on Das Puzzle Activity", Toast.LENGTH_LONG).show();
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             return true;
         }
         if(id== R.id.memory){
             Intent intent=new Intent( this,MemoryActivity.class);
             Toast.makeText(this, "click on Das Memory Activity", Toast.LENGTH_LONG).show();
+            intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             return true;
         }

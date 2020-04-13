@@ -9,10 +9,16 @@ import android.widget.Toast;
 
 public class HochStammActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hoch_stamm);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
+
     }
 
     @Override

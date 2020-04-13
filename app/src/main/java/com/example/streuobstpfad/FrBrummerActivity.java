@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class FrBrummerActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +20,9 @@ public class FrBrummerActivity extends AppCompatActivity {
         ImageView iv_background = findViewById(R.id.iv_background);
         AnimationDrawable animationDrawable = (AnimationDrawable) iv_background.getDrawable();
         animationDrawable.start();
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
 
     }
 

@@ -13,10 +13,15 @@ import android.widget.Toast;
 
 public class SteinhaufenActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_steinhaufen);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
 
         TextView sHTv1 = findViewById(R.id.sHTv1);
         TextView sHTv2 = findViewById(R.id.sHTv2);

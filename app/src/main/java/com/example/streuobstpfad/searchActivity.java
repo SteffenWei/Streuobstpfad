@@ -9,10 +9,16 @@ import android.widget.Toast;
 
 public class searchActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scarch);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
+
     }
 
     @Override

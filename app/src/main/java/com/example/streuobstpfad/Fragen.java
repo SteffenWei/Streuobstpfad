@@ -1,5 +1,6 @@
 package com.example.streuobstpfad;
 
+
 public class Fragen {
 
     public String mFragen[] = {

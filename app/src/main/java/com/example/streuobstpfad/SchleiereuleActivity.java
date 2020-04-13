@@ -14,10 +14,15 @@ import android.widget.Toast;
 
 public class SchleiereuleActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schleiereule);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
 
         final MediaPlayer seSound = MediaPlayer.create(this, R.raw.aud_schleiereule);
 

@@ -16,6 +16,8 @@ import java.util.Collections;
 
 public class MemoryActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     TextView tv_p1, tv_p2;
 
     ImageView iv_11, iv_12, iv_13, iv_14, iv_21, iv_22, iv_23, iv_24, iv_31, iv_32, iv_33, iv_34;
@@ -39,6 +41,10 @@ public class MemoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memory);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
+
 
         tv_p1 = (TextView) findViewById(R.id.tv_p1);
         tv_p2 = (TextView) findViewById(R.id.tv_p2);

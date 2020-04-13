@@ -13,6 +13,8 @@ import java.util.Random;
 
 public class QuizActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     Button antwort1, antwort2, antwort3, antwort4;
 
     TextView score, frage;
@@ -29,6 +31,9 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
 
         r = new Random();
 

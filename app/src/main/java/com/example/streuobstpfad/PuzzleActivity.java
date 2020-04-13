@@ -20,6 +20,8 @@ import java.util.Random;
 
 public class PuzzleActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     private ImageView ivp1,ivp2,ivp3,ivp4,ivp5,ivp6;
     public int auswahl = 1;
 
@@ -29,6 +31,9 @@ public class PuzzleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puzzle);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
 
         ivp1 = findViewById(R.id.ivp1);
         ivp2 = findViewById(R.id.ivp2);

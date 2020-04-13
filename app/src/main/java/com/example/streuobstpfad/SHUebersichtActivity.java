@@ -10,10 +10,15 @@ import android.widget.TextView;
 
 public class SHUebersichtActivity extends AppCompatActivity {
 
+    int punkteSpieler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_s_h_uebersicht);
+
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
 
         ImageView sHUeIv1 = findViewById(R.id.sHUsIv1);
         TextView sHUeTv1 = findViewById(R.id.sHUsTv1);
@@ -28,6 +33,7 @@ public class SHUebersichtActivity extends AppCompatActivity {
     }
     public void openShActivity() {
         Intent intent = new Intent(this, SteinhaufenActivity.class);
+        intent.putExtra("punkte", punkteSpieler);
         startActivity(intent);
     }
 
