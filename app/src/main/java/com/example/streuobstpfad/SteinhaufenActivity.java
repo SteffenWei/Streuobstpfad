@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -28,6 +29,19 @@ public class SteinhaufenActivity extends AppCompatActivity {
 
         Button sHBtn1 = findViewById(R.id.sHBtn1);
         Button sHBtn2 = findViewById(R.id.sHBtn2);
+        Button sHBtn3 = findViewById(R.id.sHBtn3);
+
+        sHBtn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openShUebersicht();
+            }
+        });
+    }
+
+    public void openShUebersicht() {
+        Intent intent = new Intent(this, SHUebersichtActivity.class);
+        startActivity(intent);
     }
 
     @Override

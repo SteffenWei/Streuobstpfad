@@ -34,16 +34,29 @@
 
             <TextView
                 android:id="@+id/sHtv3"
-                android:layout_width="205dp"
+                android:layout_width="224dp"
                 android:layout_height="match_parent"
                 android:text="@string/ShUh2_de" />
 
-            <ImageView
-                android:id="@+id/sHIv1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_gestapelte_steine" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/sHIv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="226dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_gestapelte_steine" />
+
+                <Button
+                    android:id="@+id/sHBtn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/uebersicht_de" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -76,7 +89,7 @@
             android:id="@+id/sHBtn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Fun Fact" />
 
         <Button
             android:id="@+id/sHBtn2"
