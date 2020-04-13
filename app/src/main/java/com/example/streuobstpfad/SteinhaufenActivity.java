@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class SteinhaufenActivity extends AppCompatActivity {
@@ -13,6 +16,18 @@ public class SteinhaufenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_steinhaufen);
+
+        TextView sHTv1 = findViewById(R.id.sHTv1);
+        TextView sHTv2 = findViewById(R.id.sHTv2);
+        TextView sHTv3 = findViewById(R.id.sHtv3);
+        TextView sHTv4 = findViewById(R.id.sHTv4);
+        TextView sHTv5 = findViewById(R.id.sHTv5);
+
+        ImageView sHIv1 = findViewById(R.id.sHIv1);
+        ImageView sHIv2 = findViewById(R.id.sHIv2);
+
+        Button sHBtn1 = findViewById(R.id.sHBtn1);
+        Button sHBtn2 = findViewById(R.id.sHBtn2);
     }
 
     @Override

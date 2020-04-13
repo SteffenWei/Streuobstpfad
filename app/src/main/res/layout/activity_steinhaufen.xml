@@ -39,7 +39,7 @@
                 android:text="@string/ShUh2_de" />
 
             <ImageView
-                android:id="@+id/ShIV1"
+                android:id="@+id/sHIv1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -59,7 +59,7 @@
                 android:text="@string/ShUh3_de" />
 
             <ImageView
-                android:id="@+id/ShIV2"
+                android:id="@+id/sHIv2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
