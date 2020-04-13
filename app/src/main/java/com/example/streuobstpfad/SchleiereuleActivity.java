@@ -1,10 +1,12 @@
 package com.example.streuobstpfad;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -16,6 +18,9 @@ public class SchleiereuleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schleiereule);
+
+        final MediaPlayer seSound = MediaPlayer.create(this, R.raw.aud_schleiereule);
+
         TextView SeTV1 = findViewById(R.id.SeTV1);
         TextView SeTV2 = findViewById(R.id.SeTV2);
         TextView SeTV3 = findViewById(R.id.SeTV3);
@@ -28,6 +33,14 @@ public class SchleiereuleActivity extends AppCompatActivity {
 
         Button seBtn1 = findViewById(R.id.seBtn1);
         Button seBtn2 = findViewById(R.id.seBtn2);
+        Button seBtn3 = findViewById(R.id.seBtn3);
+
+        seBtn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                seSound.start();
+            }
+        });
 
 
     }

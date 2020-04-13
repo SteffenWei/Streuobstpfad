@@ -48,6 +48,12 @@
                 android:src="@drawable/schleiereule_1"
                 app:srcCompat="@drawable/schleiereule_1" />
 
+            <Button
+                android:id="@+id/seBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="Ruf der Eule" />
+
             <ImageView
                 android:id="@+id/seIv_2"
                 android:layout_width="wrap_content"
@@ -55,6 +61,7 @@
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_103"
                 app:srcCompat="@drawable/ic_103" />
+
         </LinearLayout>
     </LinearLayout>
 
