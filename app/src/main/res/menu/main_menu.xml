@@ -46,4 +46,12 @@
         android:title="@string/help"
         app:showAsAction="never" />
 
+    <item android:id="@+id/hummel"
+        android:title="@string/hummel"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/ubersichtApp"
+        android:title="@string/ubersichtApp"
+        app:showAsAction="never"/>
+
 </menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/ic_hu_ackerhummel"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/ic_hu_baumhummel"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/ic_hu_dunkle_erdhummel"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/ic_hu_helle_erdhummel"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/ic_hu_gartenhummel"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/ic_hu_steinhummel"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/ic_hu_waldhummel"/>
+
+    <item
+        android:duration="4000"
+        android:drawable="@drawable/ic_hu_wiesenhummel"/>
+    
+</animation-list>

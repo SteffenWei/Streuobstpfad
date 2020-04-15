@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrBrummerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/HuUeTv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HuUeTv1"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/iv_background"
+            android:layout_width="match_parent"
+            android:layout_height="607dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hum_slideshow" />
+
+        <Button
+            android:id="@+id/HuUeBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zurueck_de" />
+    </LinearLayout>
+
+</RelativeLayout>

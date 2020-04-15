@@ -5,32 +5,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
+public class UebersichtActivity extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
-
-    public int punkteSpieler = 0;
+    int punkteSpieler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_uebersicht);
 
-        Button btn_test = findViewById(R.id.btn_test);
+        Intent intent = getIntent();
+        punkteSpieler = intent.getIntExtra("punkte",0);
 
-        btn_test.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, BilderActivity.class);
-                i.putExtra("punkte",punkteSpieler);
-                startActivity(i);
-
-            }
-        });
     }
+
 
 
     @Override
@@ -53,17 +43,9 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
-        if(id== R.id.ubersichtApp){
+        if(id== R.id.Main){
             Intent intent=new Intent( this,UebersichtActivity.class);
-            Toast.makeText(this, "click on Main Activity", Toast.LENGTH_LONG).show();
-            intent.putExtra("punkte",punkteSpieler);
-            this.startActivity(intent);
-            return true;
-        }
-
-        if(id== R.id.hummel){
-            Intent intent=new Intent( this,HummelActivity.class);
-            Toast.makeText(this, "click on Main Activity", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "click on Uebersicht Activity", Toast.LENGTH_LONG).show();
             intent.putExtra("punkte",punkteSpieler);
             this.startActivity(intent);
             return true;

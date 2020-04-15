@@ -10,7 +10,9 @@
     <string name="quiz">Das Quiz</string>
     <string name="memory">Das Memory</string>
     <string name="ueberschrift" id="ueberschrift">Der Streuobstpfad</string>
-
+    <string name="hummel" id="hummel">Die Hummel</string>
+    <string name="ubersichtApp" id="ubersichtApp">Die Übersichtseite</string>
+    <string name="hummelUebersicht">Hummelarten Uebersicht</string>
     <string name="app_name">Streuobstpfad</string>
     <string name="search">Suche</string>
     <string name="main">Hauptmenu</string>
@@ -33,20 +35,37 @@
 
 
     <string name="ShUs_de"><b>Der Steinhaufen</b> - Kleiner Lebensraum von großer Bedeutung</string>
+
     <string name="ShIh1_de">Über Jahrhunderte hinweg haben Menschen mühsam Stene aus Äckern und Weinergen gelesen und aufgehäuft.
     Ein Steinhaufen oder Steinriegel bietet mit seinen unterschiedlich großen Hohlräumen und Ritzen einen wertvollen Lebensraum
     und Schutz für Tiere. Auch Mauern, die aus unvermörtel aufgeschichteten Steinen bestehen, erfüllen ähnliche Lebensbedingungen.</string>
+
     <string name="ShUh2_de"><b>Vielfältige Tierwelt:\n</b> Die Wärmespeicherung der Steine ist für die Tierwelt von
     besonderer Bedeutung.<u>\nZauneidechsen</u>, die auf den Steinen gerne ein Sonnenbad nehmen, legen ihre Eier zwischen
     die erwärmten Steine, sodass sie dort auf natürliche Weise ausgebrütet werden. Die wendige <u>Schlingnatter</u>, die
     sich auch von Eidenchsen ernährt, finde in den Öückern zwischen den Steinen einen Unterschlupf.</string>
+
     <string name="ShUh3_de"><u>Käfer</u> und <u>Steinhummeln</u> finden ebenso in den Ritzen und Löchern ideale Behausungen.
     Andere Insekten, zum Beispiel <u>Schmetterlinge></u>, die ihre Körpertemperatur nicht selbst regulieren können, benötigen
     die warmen Steinem um aktionsfähig zu bleiben. \nDer <u>Steinschmätzer</u> sucht sich ein trockenes, steiniges Gebiet
     mit einer spärlichen Vegetation als Brutstätte aus.</string>
+
     <string name="ShUh4_de"><b>Typische Pflanzen\n</b>Nach und nach siedeln sich Flechten, Moose und Farne an. In den Fugen
     und Ritzen, in denen Blätter verrotten oder sich angewht Erde sammel, finden Pflazen Halt und Nahrung. Anspruchslose
     Arten wie <u>Scharfer Mauerpfeffer</u> und <u>Weiße Fetthenne</u> schmücken mit ihren Blüten den Steihaufen.</string>
 
+    <string name="HuTV1"><b>Welche Hummel fliegt denn da?</b>\nHummelarten erkennen un bestimmen\n</string>
+    <string name="HuTv2">Die plump wirkenden, pelzigen Hummeln findet man in fast allen Lebensräumen. Es sind sozial
+    lebende und staatbildende Insekten. Ein Hummelstaat besetht aus einer Königin und 50-600 Individuen. \nBereits
+    im zeitigen Frühjahr besucht die Königin die ersten Blüten. Wenn es für Bienen noch zu kalt und feucht ist, sind die Hummeln
+    bereits fleißig am Bestäuben. Sie fliegen bis zu 1000 Blüten am Tag an. \n\nHummeln können für die gezielte bestäubung
+    von Futterpflanzen, Obstbäumen und Nutzpflanzen eingesetzt werden.</string>
+    <string name="HuTv3">Einige Pflanzenarten werden fast ausschließlich von Hummeln bestäubt, z.B. Klee, Lupinen, Wicken
+    Erbsen und Bohnen. Hummeln erzeugen keinen Honig. \nAuf den ersten Blick sehen alle Hummeln gleich aus. Wir zeigen Ihnen
+    anhand <u>schematischer Habitusbilder</u> und <u>naturgetreuen Darstellugnen</u>, wie man die verschiednene Hummelarten
+    erkennen und bestimmen kann.</string>
+    <string name="HuBtn1">Zu den Hummelarten</string>
+
+    <string name="HuUeTv1"><b>Die Hummelarten</b></string>
 
 </resources>

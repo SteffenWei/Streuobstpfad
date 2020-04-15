@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SHUebersichtActivity"></activity>
+        <activity android:name=".HummelArtenActivity"/>
+        <activity android:name=".HummelActivity" />
+        <activity android:name=".UebersichtActivity" />
+        <activity android:name=".SHUebersichtActivity" />
         <activity android:name=".FlussActivity" />
         <activity android:name=".BilderPuzzleActivity" />
         <activity android:name=".QuizActivity" />
