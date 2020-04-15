@@ -2,6 +2,7 @@ package com.example.streuobstpfad;
 
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,6 +28,12 @@ public class HummelArtenActivity extends AppCompatActivity {
         ImageView iv_background = findViewById(R.id.iv_background);
         AnimationDrawable humslideshow = (AnimationDrawable) iv_background.getDrawable();
         humslideshow.start();
+
+
+        ViewPager huUeIP1 = findViewById(R.id.HuUeVP1);
+        ImageAdapter_Hu adapter = new ImageAdapter_Hu(this);
+        huUeIP1.setAdapter((adapter));
+
 
         huUeBtn1.setOnClickListener(new View.OnClickListener() {
             @Override

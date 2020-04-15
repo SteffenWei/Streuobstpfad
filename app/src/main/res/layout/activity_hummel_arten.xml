@@ -32,4 +32,10 @@
             android:text="@string/zurueck_de" />
     </LinearLayout>
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/HuUeVP1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
 </RelativeLayout>
