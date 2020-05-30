@@ -61,6 +61,14 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        if(id== R.id.BarCodeScanner){
+            Intent intent=new Intent( this,ScannerActivity.class);
+            Toast.makeText(this, "click on Scanner", Toast.LENGTH_LONG).show();
+            intent.putExtra("punkte",punkteSpieler);
+            this.startActivity(intent);
+            return true;
+        }
+
         if(id== R.id.hummel){
             Intent intent=new Intent( this,HummelActivity.class);
             Toast.makeText(this, "click on Main Activity", Toast.LENGTH_LONG).show();

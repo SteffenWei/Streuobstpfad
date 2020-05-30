@@ -50,6 +50,10 @@
         android:title="@string/hummel"
         app:showAsAction="never" />
 
+    <item android:id="@+id/BarCodeScanner"
+        android:title="@string/BCScanner"
+        app:showAsAction="never"/>
+
     <item android:id="@+id/ubersichtApp"
         android:title="@string/ubersichtApp"
         app:showAsAction="never"/>
